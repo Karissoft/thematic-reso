@@ -1,2 +1,1 @@
-# thematic
-Thematic website (React)
+## Thematic Project
