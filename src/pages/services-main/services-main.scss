@@ -1,0 +1,14 @@
+.services-main {
+  width: 100%;
+  transition: all 0.3s ease;
+
+  &.open {
+    width: 70%;
+  }
+
+  @media (max-width: 425px) {
+    &.open {
+      width: 50%;
+    }
+  }
+}

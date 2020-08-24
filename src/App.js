@@ -5,10 +5,11 @@ import LandingPage from "./pages/landing/landing"
 import Disclaimer from "./pages/disclaimer/Disclaimer"
 import Policy from "./pages/policy/policy"
 import AboutUs from "./pages/about-us/AboutUs"
-import Contact from "./pages/contact/contact"
+import Contact from "./pages/contact/contact";
+import Career from "./pages/career/career";
 import Navbar from "./components/navbar/navbar"
 import "./App.scss"
-import ServicesMain from "./pages/services-main/ServicesMain"
+import ServicesMain from "./pages/services-main/ServicesMain";
 
 
 
@@ -35,6 +36,10 @@ function App() {
 
           <Route path="/disclaimer" exact>
             <Disclaimer sidebar={sidebar} setSidebar={setSidebar} />
+          </Route>
+
+          <Route path="/career" exact>
+            <Career sidebar={sidebar} setSidebar={setSidebar} />
           </Route>
 
           <Route path="/" exact>

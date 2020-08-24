@@ -61,6 +61,16 @@ const Navbar = ({ sidebar, setSidebar }) => {
           </li>
           <li className="nav-item">
             <NavLink
+              to="/career"
+              activeClassName="active"
+              onClick={() => setSidebar()}
+              className="nav-link"
+            >
+              Career
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
               to="/contact"
               activeClassName="active"
               onClick={() => setSidebar()}

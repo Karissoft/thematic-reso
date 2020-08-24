@@ -48,6 +48,12 @@
       no-repeat;
   background-size: cover;
 }
+.header.career-page {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../assets/images/disclaimer/disclaimer-hero.jpeg") center center
+      no-repeat;
+  background-size: cover;
+}
 
 .header.policy-page {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),

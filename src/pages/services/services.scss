@@ -1,0 +1,135 @@
+.services {
+  position: relative;
+  width: 100%;
+  h1 {
+    font-family: "Amita";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 2.16px;
+    text-transform: uppercase;
+    color: #e67817;
+    margin-top: 10px;
+
+    @media (max-width: 425px) {
+      font-size: 30px;
+    }
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 37px;
+    color: #333333;
+    margin-bottom: 60px;
+  }
+
+  .slides-wrapper {
+    margin-bottom: 101px;
+    button.slick-arrow {
+      display: none !important;
+    }
+
+    a {
+      text-decoration: none;
+      height: 325px !important;
+      width: 364px !important;
+      display: flex;
+      align-items: flex-end;
+      padding: 30px 33px;
+      margin-left: auto;
+      margin-right: auto;
+
+      h3 {
+        color: #ffffff;
+        font-family: "Amita";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 63px;
+        letter-spacing: 1.08px;
+        text-transform: uppercase;
+
+        @media (max-width: 954px) {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .slide {
+      width: 325px !important;
+      height: 364px;
+      border-radius: 10px;
+      margin-left: auto;
+      margin-right: auto;
+
+      @media (max-width: 1100px) {
+        width: 260px !important;
+      }
+
+      @media (max-width: 1000px) {
+        width: 260px !important;
+      }
+
+      @media (max-width: 954px) {
+        width: 230px !important;
+      }
+
+      @media (max-width: 853px) {
+        width: 300px !important;
+      }
+
+      @media (max-width: 698px) {
+        width: 100% !important;
+      }
+    }
+
+    .slide.farming {
+      background: linear-gradient(
+          360deg,
+          #000000 14.93%,
+          rgba(51, 51, 51, 0) 43.34%
+        ),
+        url("../../assets/images/services/farming.jpeg") center center no-repeat;
+      background-size: cover;
+    }
+
+    .slide.energy {
+      background: linear-gradient(
+          360deg,
+          #333333 22.53%,
+          rgba(51, 51, 51, 0) 100%
+        ),
+        url("../../assets/images/services/bulb.jpeg") center center no-repeat;
+      background-size: cover;
+    }
+
+    .slide.water {
+      background: linear-gradient(
+          359.51deg,
+          #333333 9.65%,
+          rgba(51, 51, 51, 0) 59.31%
+        ),
+        url("../../assets/images/services/hydrant.jpeg") center center no-repeat;
+      background-size: cover;
+    }
+
+    .slide.tourism {
+      background: linear-gradient(
+          360deg,
+          #333333 15.77%,
+          rgba(51, 51, 51, 0) 67.72%
+        ),
+        url("../../assets/images/services/airplane.jpeg") center center
+          no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+.slick-initialized .slick-track {
+  display: flex;
+  align-items: center;
+}

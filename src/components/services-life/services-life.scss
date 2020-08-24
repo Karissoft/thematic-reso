@@ -1,0 +1,29 @@
+.life {
+  .sub-heading {
+    margin-bottom: 3rem;
+  }
+
+  & > p {
+    line-height: 40px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .services-sub-title {
+    color: #333;
+    line-height: 60px;
+    margin: 1rem 0 0;
+    font-size: 2.3rem;
+  }
+
+  .life {
+    .sub-heading {
+      margin-top: -2rem;
+      margin-bottom: 1rem;
+    }
+
+    & > p {
+      line-height: 40px !important;
+    }
+  }
+}

@@ -1,0 +1,148 @@
+#landing {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  background: #000;
+
+  @media (max-width: 425px) {
+    &.open {
+      width: 50%;
+    }
+  }
+}
+
+.sliders {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/slides/slide-1.jpg") center center no-repeat;
+  background-size: cover;
+  animation: fade 10s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+// Landing page content
+.landing-title {
+  font-size: 3.875rem;
+  font-family: "Quando", sans-serif;
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  margin-top: 5rem;
+  width: 80%;
+  margin-left: 1rem;
+
+  span {
+    color: red;
+  }
+}
+
+.landing-text-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.landing-text {
+  font-family: "Amita", sans-serif;
+  font-size: 32px;
+  color: #fff;
+  margin-right: 8px;
+  margin-left: 1rem;
+}
+
+.Typist {
+  color: orange;
+  font-family: "Amita", sans-serif;
+  font-size: 28px;
+}
+
+.socials {
+  position: absolute;
+  bottom: 0;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  padding-left: 0.5rem;
+
+  li {
+    margin-right: 1rem;
+  }
+
+  .social-icon {
+    path {
+      transition: all 0.3s ease;
+    }
+    &:hover {
+      path {
+        fill: orange;
+      }
+    }
+  }
+}
+
+@keyframes fade {
+  0% {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../../assets/images/slides/slide-1.jpg") center center no-repeat;
+    background-size: cover;
+  }
+  50% {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../../assets/images/slides/slide-2.jpg") center center no-repeat;
+    background-size: cover;
+  }
+  100% {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../../assets/images/slides/slide-3.jpg") center center no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .landing-title {
+    font-size: 30px;
+    margin-top: 2rem;
+  }
+
+  .landing-text-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+  }
+  .landing-text {
+    margin-right: -5.2rem;
+  }
+
+  .landing-text,
+  .Typist {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1367px) {
+  .landing-text,
+  .Typist {
+    font-size: 3.25rem;
+  }
+}
