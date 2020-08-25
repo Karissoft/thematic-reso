@@ -35,7 +35,7 @@ const LandingPage = ({ sidebar, setSidebar }) => {
             welcome to thematic <br /> <span>Resource</span>
           </h1>
           <div className="landing-text-wrapper">
-            <p className="landing-text">We specialize in</p>
+            <p className="landing-text">Our services include:</p>
             <TypistLoop interval={3000}>
               {specializeArray.map(text => (
                 <Typist key={text} startDelay={1000}>
