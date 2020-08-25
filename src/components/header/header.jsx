@@ -10,9 +10,7 @@ const Header = ({ sidebar, setSidebar, page }) => {
   return (
     <header className={`${page} header`}>
       <div className="header-content container">
-        <Link to="/" className="header-logo">
-          <img src={logo} alt="Logo" />
-        </Link>
+
         {/* toggler */}
         {!sidebar && (
           <div className="header-toggler">
@@ -24,6 +22,9 @@ const Header = ({ sidebar, setSidebar, page }) => {
             />
           </div>
         )}
+        <Link to="/" className="header-logo">
+          <img src={logo} alt="Logo" />
+        </Link>
       </div>
     </header>
   )

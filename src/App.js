@@ -17,6 +17,8 @@ function App() {
   return (
     <div className="App">
       <Router>
+        {/* NavBar */}
+        <Navbar sidebar={sidebar} setSidebar={setSidebar} />
         <Switch>
           <Route path="/apply" exact>
             <ApplicationForm />
@@ -49,8 +51,7 @@ function App() {
             <LandingPage sidebar={sidebar} setSidebar={setSidebar} />
           </Route>
         </Switch>
-        {/* NavBar */}
-        <Navbar sidebar={sidebar} setSidebar={setSidebar} />
+        
       </Router>
     </div>
   )
