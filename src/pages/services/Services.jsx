@@ -39,10 +39,7 @@ function Services({ sidebar, setSidebar }) {
       <main className="container">
         <h1>Our Services</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          lacinia efficitur ex, a pretium sem blandit dapibus. Aliquam aliquet
-          eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit.
+          
         </p>
         <div className="slides-wrapper">
           <Slider {...slickSettings}>
