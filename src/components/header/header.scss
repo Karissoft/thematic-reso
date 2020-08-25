@@ -65,3 +65,10 @@
     url("../../assets/images/services/services.jpeg") center center no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 425px){
+  .header.landing{
+    max-width: 80%;
+    text-align: center;
+  }
+}
