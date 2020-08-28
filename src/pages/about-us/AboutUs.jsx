@@ -12,7 +12,7 @@ function AboutUs({ sidebar, setSidebar }) {
     <div className={`about-us ${sidebar ? "open" : ""}`}>
       <Header sidebar={sidebar} setSidebar={setSidebar} page={"about-page"} />
       <main className="container">
-        <h1>About Us</h1>
+        <h1>Overview</h1>
         <p>
           Thematic Resources Ltd is a Nigerian based oil and gas ("O&G") company
           with focus in acquiring assets for Exploration and Production. In the
@@ -30,30 +30,26 @@ function AboutUs({ sidebar, setSidebar }) {
               <div>
                 <h5>Our Purpose</h5>
                 <p>
-                  Our purpose is to deliver energy, water and food to the world
-                  in a sustainable matter
+                Our purpose is to produce and deliver energy, water and food to the world in a sustainable matter
+
                 </p>
               </div>
             </div>
             <div className="second">
               <img src={SecondIcon} alt="" />
               <div>
-                <h5>Our Purpose</h5>
+                <h5>Our Vision </h5>
                 <p>
-                  We exist to innovate and create affordable technological
-                  solutions that solve day to day human problems by increasing
-                  the efficiency of systems and processes within the social,
-                  commercial and public sector space.
+                To become a leading independent Company combining best practices, exceptional people and technical expertise
                 </p>
               </div>
             </div>
             <div className="third">
               <img src={ThirdIcon} alt="" />
               <div>
-                <h5>Our Vision</h5>
+                <h5>Our Mission</h5>
                 <p>
-                  To become a leading independent Company combining best
-                  practices, exceptional people and technical expertise.
+                To consistently extract maximum value from desirable opportunities  and create maximum  long  term value  for  our shareholders
                 </p>
               </div>
             </div>
