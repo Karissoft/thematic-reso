@@ -6,6 +6,7 @@ import FirstIcon from "../../assets/images/about-us/icons/first.svg"
 import SecondIcon from "../../assets/images/about-us/icons/second.svg"
 import ThirdIcon from "../../assets/images/about-us/icons/third.svg"
 import FourthIcon from "../../assets/images/about-us/icons/fourth.svg"
+import LocationMap from "../../components/map/LocationMap"
 
 function AboutUs({ sidebar, setSidebar }) {
   return (
@@ -187,7 +188,9 @@ function AboutUs({ sidebar, setSidebar }) {
             </div>
 
           </div>
+         
         </div>
+        <LocationMap />
       </main>
       <Footer />
     </div>
