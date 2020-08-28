@@ -256,7 +256,7 @@
   background-color:  $primary-color-opacity;
   border-radius: 5px;
   padding: 10px;
-  height: 96%;
+  height: 85%;
 }
 
 .energy{ 
@@ -282,8 +282,8 @@
     text-transform: uppercase;
     text-align: center;
   }
-  margin-top: 30px;
-  margin-bottom:5px;
+  margin-top: 20px;
+  margin-bottom:3px;
 
   .upstream-paragraph {
     font-size:14px;
@@ -362,7 +362,7 @@
   background-color: $primary-color-opacity;
   border-radius: 10px;
   padding: 10px;
-  height: 40%;
+  height: 85%;
   @media (max-width: 540px){
     height: 90%;
   }
@@ -370,7 +370,7 @@
 }
 
 .livestock{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   h4{
     text-align: center;
     text-transform: uppercase;
@@ -383,8 +383,9 @@
 }
 
 .crops-cultivation{
-  margin-bottom: 5px;
+ 
   h4{
+    margin-top: 10px;
     text-align: center;
     text-transform: uppercase;
   }
@@ -400,7 +401,7 @@
   background-color: $primary-color-opacity;
   border-radius: 10px;
   padding: 10px;
-  height: 40%;
+  height: 85%;
 
   @media (max-width: 540px){
     height: 90%;
@@ -424,7 +425,7 @@
   background-color: $primary-color-opacity;
   border-radius: 10px;
   padding: 10px;
-  height: 40%;
+  height: 85%;
   .tourisim{
     h4{
       text-align: center;
@@ -439,6 +440,6 @@
   }
 
  @media (max-width: 540px){
-    height: 75%;
+    height: 90%;
   }
 }

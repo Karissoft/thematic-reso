@@ -105,34 +105,18 @@ function AboutUs({ sidebar, setSidebar }) {
               <h4>Services</h4>
               <p className="services-paragraph">Geophysical data acquisition and Processing Integrated Reservoir
               Studies/Assets Evaluation Geomatic and Hydrography Surveys GIS and
-              remote Sensing Geotechnical</p>
-              <p className="services-paragraph">QA/QC Consultancy</p>
-              <p className="services-paragraph">Manpower Training and & Supply</p>
-            </div>
-
-            <div className="down-stream">
-              <h4> Down Stream</h4>
-              <p className="down-stream-paragraph">Petroleum Production Sales and Services Pettrol(PMS),
-               Diesel(AGO), Kerosine(DPK) Energy Oils an others Chemicals</p>
-            </div>
-
-            <div className="gas">
-              <h4>Gas</h4>
-              <p className="gas-paragraph">Liquefied Petroleum Gas (LPG)
-              Liquefied Natural Gas (LNG)
-              Compressed Natural Gas (CNG)
+              remote Sensing Geotechnical
+              <br/>
+              <br/>
+              QA/QC Consultancy
+              Manpower Training and & Supply
               </p>
             </div>
-
-            <div className="renewable">
-              <h4>Renewable Energy</h4>
-              <p className="renewable-paragraph">Solar Energy
-                 Wind turbines
-                </p>
-            </div>
+            
           </div>
 
           <div className="farm-wrapper">
+
             <div className="livestock">
               <h4>farrm livestock</h4>
               <p className="livestock-paragraph">Poultry
@@ -162,6 +146,14 @@ function AboutUs({ sidebar, setSidebar }) {
 
 
           <div className="portable-wrapper">
+
+
+          <div className="down-stream">
+              <h4> Down Stream</h4>
+              <p className="down-stream-paragraph">Petroleum Production Sales and Services Pettrol(PMS),
+               Diesel(AGO), Kerosine(DPK) Energy Oils an others Chemicals</p>
+            </div>
+
             <div className="portable-water">
               <h4>PORTABLE WATER</h4>
               <p className="portable-paragraph">Bore hole Drilling
@@ -172,11 +164,27 @@ function AboutUs({ sidebar, setSidebar }) {
 
              </p>
 
-    
-
             </div>
           </div>
           <div className="torusim-wrapper">
+            
+          <div className="gas">
+              <h4>Gas</h4>
+              <p className="gas-paragraph">Liquefied Petroleum Gas (LPG)
+              Liquefied Natural Gas (LNG)
+              Compressed Natural Gas (CNG)
+              </p>
+            </div>
+
+            <div className="renewable">
+              <h4>Renewable Energy</h4>
+              <p className="renewable-paragraph">Solar Energy
+                 Wind turbines
+                </p>
+            </div>
+
+
+
             <div className="tourisim">
               <h4>TOURISM</h4>
               <p className="tourisim-paragraph">Hotels, Parks, Event Centres
