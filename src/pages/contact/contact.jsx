@@ -3,13 +3,13 @@ import Footer from "../../components/footer/Footer"
 import Header from "../../components/header/header"
 import "./contact.scss"
 
-import contactImage from "../../assets/images/contact/contact.jpg"
+import LocationMap from '../../components/map/LocationMap'
 
 const Contact = ({ sidebar, setSidebar }) => {
   return (
     <div className={`contact ${sidebar ? "open" : ""}`}>
       <Header sidebar={sidebar} setSidebar={setSidebar} page={"contact-page"} />
-      <img src={contactImage} alt="Contact" className="contact-img" />
+       <LocationMap contact={"contact-img"}/>
       <main className="container">
         <h1>Contact Us</h1>
         <p>

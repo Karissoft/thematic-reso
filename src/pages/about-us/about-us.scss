@@ -150,6 +150,10 @@
         }
 
         .first {
+          border-radius: 5px;
+          border: 1px solid $color-red;
+          padding: 6px;
+
           img {
             @media (max-width: 699px) {
               margin-right: 29px;
@@ -158,6 +162,9 @@
         }
 
         .second {
+          border-radius: 5px;
+          border: 1px solid $color-red;
+          padding: 6px;
           width: 500px;
           margin-right: 0;
 
@@ -180,6 +187,9 @@
         }
 
         .third {
+          border-radius: 5px;
+          border: 1px solid $color-red;
+          padding: 3px;
           img {
             @media (max-width: 699px) {
               margin-right: 28px;
@@ -188,6 +198,11 @@
         }
 
         .fourth {
+
+          border-radius: 5px;
+          border: 1px solid $color-red;
+          padding: 6px;
+
           margin-right: 0;
           margin-bottom: 0;
           img {
