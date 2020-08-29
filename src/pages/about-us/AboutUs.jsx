@@ -87,7 +87,7 @@ function AboutUs({ sidebar, setSidebar }) {
             </div>
           </div>
         </section>
-        {/* second section */}
+        {/* second section
 
         <div className="section-wrapper">
           <div className="energy-wrapper">
@@ -197,7 +197,7 @@ function AboutUs({ sidebar, setSidebar }) {
 
           </div>
          
-        </div>
+        </div> */}
       </main>
       <Footer />
     </div>
