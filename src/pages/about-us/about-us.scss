@@ -1,3 +1,12 @@
+ $color-red : rgb(255, 0, 0);
+ $primary-color: #e67817;
+ $primary-color-opacity: rgba(240, 116, 8, 0.856);
+ $color-paragraph: #999999;
+ $color-balck: #111;
+ 
+
+
+
 .about-us {
   min-height: 100vh;
   font-family: "Open Sans", sans-serif;
@@ -43,6 +52,33 @@
         }
       }
     }
+
+    // collins style
+    .welcome {
+      color: $color-red;
+      font-style: 40px;
+      letter-spacing: 3px;
+      font-family: "Amita";
+      font-size: 30px;
+      margin: 0px 0px 10px 0px;
+    }
+
+    .thematic {
+      font-weight: 800;
+      font-size: 30px;
+
+      @media (max-width: 575px) {
+         font-size: 25px;
+      }
+      @media (max-width: 502px) {
+         font-size: 20px;
+         font-weight: 800;
+      }
+      @media (max-width: 429px) {
+         font-size: 15px;
+      }
+    }
+
 
     .who-we-are-wrapper {
       margin-bottom: 40px;
@@ -114,6 +150,10 @@
         }
 
         .first {
+          border-radius: 5px;
+          border: 1px solid $color-red;
+          padding: 6px;
+
           img {
             @media (max-width: 699px) {
               margin-right: 29px;
@@ -122,6 +162,9 @@
         }
 
         .second {
+          border-radius: 5px;
+          border: 1px solid $color-red;
+          padding: 6px;
           width: 500px;
           margin-right: 0;
 
@@ -144,6 +187,9 @@
         }
 
         .third {
+          border-radius: 5px;
+          border: 1px solid $color-red;
+          padding: 3px;
           img {
             @media (max-width: 699px) {
               margin-right: 28px;
@@ -152,6 +198,11 @@
         }
 
         .fourth {
+
+          border-radius: 5px;
+          border: 1px solid $color-red;
+          padding: 6px;
+
           margin-right: 0;
           margin-bottom: 0;
           img {
@@ -205,5 +256,209 @@
   .Typist {
     font-size: 16px;
     width: 100%;
+  }
+}
+  //  COLLINS SECTION STYLE
+.section-wrapper{
+  display: grid;
+  grid-gap:15px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  padding-left: 2px;
+  padding-top: 5%;
+}
+
+.energy-wrapper{
+  background-color:  $primary-color-opacity;
+  border-radius: 5px;
+  padding: 10px;
+  height: 85%;
+}
+
+.energy{ 
+ margin-bottom: 5px;
+
+  h4{
+    color: $color-balck;
+    text-align: center;
+  }
+ .energy-paragraph{
+   font-size: 14px;
+   text-align: center;
+   color: $color-balck;
+   font-weight: 500;
+ } 
+  
+}
+
+
+.upstream {
+
+  h4{
+    text-transform: uppercase;
+    text-align: center;
+  }
+  margin-top: 20px;
+  margin-bottom:3px;
+
+  .upstream-paragraph {
+    font-size:14px;
+    text-align: center;
+    color: $color-balck;
+    font-weight: 500;
+  }
+
+}
+
+.services {
+  h4{
+    text-transform: uppercase;
+    text-align: center;
+  }
+  color: $color-balck;
+  margin-top: 50px;
+  .services-paragraph {
+    font-size: 14px;
+    text-align: center;
+    color: $color-balck;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+
+.down-stream{
+  margin-bottom: 10px;
+  h4{
+    text-align: center;
+    color: $color-balck;
+     text-transform: uppercase;
+  }
+  
+  .down-stream-paragraph{
+    font-size: 14px;
+    text-align: center;
+    color: $color-balck;
+    font-weight: 500;
+  }
+}
+
+.gas{
+  h4  {
+    text-align: center;
+  }
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  .gas-paragraph{
+    font-size: 14px;
+    text-transform: lowercase;
+    color: $color-balck;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+
+.renewable{
+  margin-bottom: 5px;
+  h4{
+    text-transform: uppercase;
+    text-align: center;
+  }
+  margin-bottom: 20px;
+  text-transform: lowercase;
+  .renewable-paragraph{
+    text-align: center;
+    color: $color-balck;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+.farm-wrapper{
+  background-color: $primary-color-opacity;
+  border-radius: 10px;
+  padding: 10px;
+  height: 85%;
+  @media (max-width: 540px){
+    height: 90%;
+  }
+
+  @media (max-width: 360px){
+    height: 95%;
+  }
+
+}
+
+.livestock{
+  margin-bottom: 10px;
+  h4{
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .livestock-paragraph{
+    text-align: center;
+    font-size:14px;
+  }
+}
+
+.crops-cultivation{
+ 
+  h4{
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .cultivation-paragraph {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+
+.portable-wrapper{
+  background-color: $primary-color-opacity;
+  border-radius: 10px;
+  padding: 10px;
+  height: 85%;
+
+  @media (max-width: 540px){
+    height: 90%;
+  }
+
+  .portable-water{
+    h4{
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .portable-paragraph{
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+  
+}
+
+
+.torusim-wrapper{
+  background-color: $primary-color-opacity;
+  border-radius: 10px;
+  padding: 10px;
+  height: 85%;
+  .tourisim{
+    h4{
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .tourisim-paragraph{
+      text-align: center;
+      font-size: 14px;
+    }
+
+
+  }
+
+ @media (max-width: 540px){
+    height: 90%;
   }
 }

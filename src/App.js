@@ -47,6 +47,7 @@ function App() {
             <Career sidebar={sidebar} setSidebar={setSidebar} />
           </Route>
 
+
           <Route path="/" exact>
             <LandingPage sidebar={sidebar} setSidebar={setSidebar} />
           </Route>
