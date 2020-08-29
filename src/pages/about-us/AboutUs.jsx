@@ -13,13 +13,9 @@ function AboutUs({ sidebar, setSidebar }) {
     <div className={`about-us ${sidebar ? "open" : ""}`}>
       <Header sidebar={sidebar} setSidebar={setSidebar} page={"about-page"} />
       <main className="container">
-<<<<<<< HEAD
-=======
         <h2 className="welcome">Welcome to</h2>
 
         <p className="thematic">Thematic Resources Limited</p>
-
->>>>>>> feature-about-us
         <h1>Overview</h1>
         <p>
           Thematic Resources Ltd is a Nigerian based oil and gas ("O&G") company
@@ -33,6 +29,7 @@ function AboutUs({ sidebar, setSidebar }) {
 
 
         <section className="who-we-are-wrapper">
+          <div>
           <h2>Who We Are</h2>
           <div className="wrapper">
             <div className="first">
@@ -47,21 +44,14 @@ function AboutUs({ sidebar, setSidebar }) {
             </div>
             <div className="second">
               <img src={SecondIcon} alt="" />
-              <div>
-<<<<<<< HEAD
-                <h5>Our Vision </h5>
-                <p>
-                To become a leading independent Company combining best practices, exceptional people and technical expertise
-=======
+              </div>
                 <h5>Our mission</h5>
                 <p>
                   To consistently extract maximum valaue from desirable opportunities
                   and create maximum
                   long term value for our shareholders.
->>>>>>> feature-about-us
                 </p>
               </div>
-            </div>
             <div className="third">
               <img src={ThirdIcon} alt="" />
               <div>
@@ -95,117 +85,6 @@ function AboutUs({ sidebar, setSidebar }) {
             </div>
           </div>
         </section>
-        {/* second section
-
-        <div className="section-wrapper">
-          <div className="energy-wrapper">
-            <div className="energy">
-              <h4>ENERGY</h4>
-              <p className="energy-paragraph">Fossil Energy (Oil and Gas)</p>                               
-            </div>
-
-            <div className="upstream">
-              <h4>up stream</h4>
-              <p className="upstream-paragraph">esploration and production</p>
-            </div>
-
-            <div className="services">
-              <h4>Services</h4>
-              <p className="services-paragraph">Geophysical data acquisition and Processing Integrated Reservoir
-              Studies/Assets Evaluation Geomatic and Hydrography Surveys GIS and
-              remote Sensing Geotechnical
-              <br/>
-              <br/>
-              QA/QC Consultancy
-              Manpower Training and & Supply
-              </p>
-            </div>
-            
-          </div>
-
-          <div className="farm-wrapper">
-
-            <div className="livestock">
-              <h4>farrm livestock</h4>
-              <p className="livestock-paragraph">Poultry
-              Cattles (Beef, Milk, Cheese, Yoghurt)
-              Goats / Sheep
-              Honey
-                </p>
-            </div>
-
-            <div className="crops-cultivation">
-              <h4>
-                Crops Cultivation & Value Chain
-               </h4>
-              <p className="cultivation-paragraph">Crops Cultivation & Value Chain
-              Oil Palm Plantation
-              Cocoa and Bush Mango
-              Bananas / Plantain /
-              Oranges / mangos / Pineapple
-              Rice/vegetables (green, pumpkin)
-              Cassava (garri / starch / pelletsins)
-              Maize / Millet / Beans / Onions
-              Melons / peppers / tomatoes
-              Groundnut
-             </p>
-            </div>
-          </div>
-
-
-          <div className="portable-wrapper">
-
-
-          <div className="down-stream">
-              <h4> Down Stream</h4>
-              <p className="down-stream-paragraph">Petroleum Production Sales and Services Pettrol(PMS),
-               Diesel(AGO), Kerosine(DPK) Energy Oils an others Chemicals</p>
-            </div>
-
-            <div className="portable-water">
-              <h4>PORTABLE WATER</h4>
-              <p className="portable-paragraph">Bore hole Drilling
-              Water Reticulation
-              Mini Water Schemes
-              Bottled Spring Water <br/>
-              Mineral Water
-
-             </p>
-
-            </div>
-          </div>
-          <div className="torusim-wrapper">
-            
-          <div className="gas">
-              <h4>Gas</h4>
-              <p className="gas-paragraph">Liquefied Petroleum Gas (LPG)
-              Liquefied Natural Gas (LNG)
-              Compressed Natural Gas (CNG)
-              </p>
-            </div>
-
-            <div className="renewable">
-              <h4>Renewable Energy</h4>
-              <p className="renewable-paragraph">Solar Energy
-                 Wind turbines
-                </p>
-            </div>
-
-
-
-            <div className="tourisim">
-              <h4>TOURISM</h4>
-              <p className="tourisim-paragraph">Hotels, Parks, Event Centres
-              Event Management
-              Tour Guards/Guides
-              Gift Items
-                 Travel Agency
-                 </p>
-            </div>
-
-          </div>
-         
-        </div> */}
       </main>
       <Footer />
     </div>
