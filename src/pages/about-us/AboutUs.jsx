@@ -13,9 +13,6 @@ function AboutUs({ sidebar, setSidebar }) {
     <div className={`about-us ${sidebar ? "open" : ""}`}>
       <Header sidebar={sidebar} setSidebar={setSidebar} page={"about-page"} />
       <main className="container">
-        <h2 className="welcome">Welcome to</h2>
-
-        <p className="thematic">Thematic Resources Limited</p>
         <h1>Overview</h1>
         <p>
           Thematic Resources Ltd is a Nigerian based oil and gas ("O&G") company
@@ -29,7 +26,6 @@ function AboutUs({ sidebar, setSidebar }) {
 
 
         <section className="who-we-are-wrapper">
-          <div>
           <h2>Who We Are</h2>
           <div className="wrapper">
             <div className="first">
@@ -44,13 +40,14 @@ function AboutUs({ sidebar, setSidebar }) {
             </div>
             <div className="second">
               <img src={SecondIcon} alt="" />
-              </div>
+              <div>
                 <h5>Our mission</h5>
                 <p>
                   To consistently extract maximum valaue from desirable opportunities
                   and create maximum
                   long term value for our shareholders.
                 </p>
+              </div>
               </div>
             <div className="third">
               <img src={ThirdIcon} alt="" />

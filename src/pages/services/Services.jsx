@@ -38,9 +38,6 @@ function Services({ sidebar, setSidebar }) {
       <Header sidebar={sidebar} setSidebar={setSidebar} page={"services"} />
       <main className="container">
         <h1>Our Services</h1>
-        <p>
-          
-        </p>
         <div className="slides-wrapper">
           <Slider {...slickSettings}>
             <div className="farming slide">
