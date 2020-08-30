@@ -41,18 +41,16 @@ function AboutUs({ sidebar, setSidebar }) {
             <div className="second">
               <img src={SecondIcon} alt="" />
               <div>
-                <h5>Our mission</h5>
+                <h5>Our vision</h5>
                 <p>
-                  To consistently extract maximum valaue from desirable opportunities
-                  and create maximum
-                  long term value for our shareholders.
+                To become a leading independent Company combining best practices, exceptional people and technical expertise
                 </p>
               </div>
               </div>
             <div className="third">
               <img src={ThirdIcon} alt="" />
               <div>
-                <h5>Our Mission</h5>
+                <h5>Our mission</h5>
                 <p>
                 To consistently extract maximum value from desirable opportunities  and create maximum  long  term value  for  our shareholders
                 </p>
