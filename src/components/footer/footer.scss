@@ -16,12 +16,17 @@
       flex-direction: column;
       justify-content: space-around;
     }
-
+   .fa-icon{
+     color: red;
+   }
     .left {
       display: flex;
       align-items: center;
       img {
         margin-right: 15px;
+      }
+      p{
+        font-size: 0.75rem ;
       }
 
       span {
