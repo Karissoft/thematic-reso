@@ -206,7 +206,7 @@
         }
 
         .fourth {
-
+  
           border-radius: 5px;
           border: 1px solid $color-red;
           box-shadow: 0px 0px 18px #b9b7b7;
@@ -217,6 +217,11 @@
           img {
             @media (max-width: 699px) {
               margin-right: 22px;
+            }
+          }
+          img {
+            @media (max-width: 360px) {
+              margin-right: none;
             }
           }
 
@@ -246,11 +251,22 @@
               }
             }
           }
+
+          .fourth-icon {
+            margin: 0px 5px 0px 39%;
+             @media (max-width: 425px) {
+              margin: 0px 0px 0px 20%;
+             }
+          }
+              
         }
       }
     }
   }
 }
+
+
+
 
 @media screen and (max-width: 425px) {
   .title {
@@ -473,3 +489,4 @@
     height: 90%;
   }
 }
+

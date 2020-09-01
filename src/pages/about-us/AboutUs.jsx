@@ -69,7 +69,7 @@ function AboutUs({ sidebar, setSidebar }) {
             </div>
             <div className="fourth">
               <img src={FourthIcon} alt="" className="fourth-icon" />
-              <div>
+              <div className="fourth-section">
                 <h5>Our Core Values</h5>
                 <ul>
                   <li>Integrity</li>
