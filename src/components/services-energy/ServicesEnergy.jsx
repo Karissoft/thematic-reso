@@ -17,7 +17,7 @@ function ServicesEnergy() {
         <h4>Services</h4>
         <p>Geophysical data acquisition and Processing</p>
         <p>Integrated Reservoir Studies/Assets Evaluation</p>
-        <p>Geomatics and Hydrography Surveys</p>
+        <p>Geomatics and Hydrographic Surveys</p>
         <p>GIS &amp; Remote Sensing</p>
         <p>Geotechnical</p>
         <h4>QA/QC Consultancy</h4>
@@ -33,7 +33,7 @@ function ServicesEnergy() {
         <p>Compressed Natural Gas (CNG)</p>
         <h4>Renewable Energy</h4>
         <p>Solar Energy</p>
-        <p>Wind turbine</p>
+        <p>Wind turbines</p>
       </div>
     </ServicesSub>
   )

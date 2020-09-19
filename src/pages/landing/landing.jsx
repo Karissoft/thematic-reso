@@ -10,16 +10,16 @@ import { ReactComponent as InstagramIcon } from "../../assets/images/icons/insta
 import Header from "../../components/header/header"
 
 const specializeArray = [
-  "farming",
-  "oil and gas",
-  "borehole drilling",
-  "up and down stream",
-  "gas",
-  "renewable energy",
-  "mini water schemes",
-  "mineral",
-  "consultancy",
-  "general supplies",
+  // "farming",
+  // "oil and gas",
+  // "borehole drilling",
+  // "up and down stream",
+  // "gas",
+  // "renewable energy",
+  // "mini water schemes",
+  // "mineral",
+  // "consultancy",
+  // "general supplies",
 ]
 
 const LandingPage = ({ sidebar, setSidebar }) => {
@@ -32,10 +32,10 @@ const LandingPage = ({ sidebar, setSidebar }) => {
         <div className="container">
           {/* Landing Page Content */}
           <h1 className="landing-title">
-            welcome to thematic <br /> <span>Resource</span>
+            thematic <span>Resources</span> LTD
           </h1>
           <div className="landing-text-wrapper">
-            <p className="landing-text">Our services include:</p>
+            {/* <p className="landing-text">Our services include:</p> */}
             <TypistLoop interval={3000}>
               {specializeArray.map(text => (
                 <Typist key={text} startDelay={1000}>

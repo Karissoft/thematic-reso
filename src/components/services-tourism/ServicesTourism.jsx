@@ -12,11 +12,12 @@ function ServicesTourism() {
         <p className="services-sub-text">Explore with Us!</p>
       </div>
       <div className="tourism">
-        <h2 className="sub-heading">Our offers</h2>
+        <h2 className="sub-heading">Our offer</h2>
         <p>Hotels, Parks, Event Centres</p>
         <p>Event Management</p>
         <p>Tour Guards/Guides</p>
-        <p>Gift Items Travel Agency</p>
+        <p>Gift Items </p>
+         <p>Travel Agency</p>
       </div>
     </ServicesSub>
   )

@@ -18,7 +18,7 @@ function AboutUs({ sidebar, setSidebar }) {
           Thematic Resources Ltd is a Nigerian based oil and gas ("O&G") company
           with focus in acquiring assets for Exploration and Production. In the
           main time, we provide a wide range of upstream geophysical data
-          services, down stream products and some interest in renewable energy.
+          services, mid & down stream products and some interest in renewable energy.
           TR undertake to maximise the Local Content of any project it executes,
           while maintaining the local and international quality and safety
           standards..
@@ -62,7 +62,7 @@ function AboutUs({ sidebar, setSidebar }) {
                 <h5>Strategy</h5>
                 <p>
                   Our main strategy is to extract fossil fuel, produce water
-                  and food in a sustainable matter with little or no nagetive
+                  and food in a sustainable matter with little or no negative
                   impact on the environment.
                 </p>
               </div>

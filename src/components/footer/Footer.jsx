@@ -12,7 +12,7 @@ function Footer() {
       <div className="container">
         <div className="left">
           <img src={CopyrightIcon} alt="" />
-          <span>2020 Thematic Limited</span>
+          <span>2020 Thematic resources Limited</span>
         </div>
         <div className="right">
           <img src={FacebookIcon} alt="" />

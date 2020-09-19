@@ -12,9 +12,11 @@ function ServicesLife() {
       </div>
       <div className="life">
         <h2 className="sub-heading">portable water</h2>
-        <p>Poultry</p>
-        <p>Cattles (Beef, Milk, Cheese, Yoghurt)</p>
-        <p>Goats/Sheep Honey</p>
+        <p>Borehole Drilling</p>
+        <p>Water reticulation</p>
+        <p>Mini water schemes</p>
+        <p>Bottled spring water</p>
+        <p>Mineral water</p>
       </div>
     </ServicesSub>
   )
