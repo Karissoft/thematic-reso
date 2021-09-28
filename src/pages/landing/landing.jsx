@@ -32,7 +32,7 @@ const LandingPage = ({ sidebar, setSidebar }) => {
         <div className="container">
           {/* Landing Page Content */}
           <h1 className="landing-title">
-            thematic <span>Resources</span> LTD
+            thematic <span>Resources</span> 
           </h1>
           <div className="landing-text-wrapper">
             {/* <p className="landing-text">Our services include:</p> */}
