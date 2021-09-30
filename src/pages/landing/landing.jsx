@@ -1,13 +1,13 @@
-import React from "react"
-import Typist from "react-typist"
-import TypistLoop from "react-typist-loop"
+import React from "react";
+import Typist from "react-typist";
+import TypistLoop from "react-typist-loop";
 
-import "./landing.scss"
-import { ReactComponent as FacebookIcon } from "../../assets/images/icons/facebook.svg"
-import { ReactComponent as TwitterIcon } from "../../assets/images/icons/twitter.svg"
-import { ReactComponent as LinkedinIcon } from "../../assets/images/icons/linkedin.svg"
-import { ReactComponent as InstagramIcon } from "../../assets/images/icons/instagram.svg"
-import Header from "../../components/header/header"
+import "./landing.scss";
+import { ReactComponent as FacebookIcon } from "../../assets/images/icons/facebook.svg";
+import { ReactComponent as TwitterIcon } from "../../assets/images/icons/twitter.svg";
+import { ReactComponent as LinkedinIcon } from "../../assets/images/icons/linkedin.svg";
+import { ReactComponent as InstagramIcon } from "../../assets/images/icons/instagram.svg";
+import Header from "../../components/header/header";
 
 const specializeArray = [
   // "farming",
@@ -20,7 +20,7 @@ const specializeArray = [
   // "mineral",
   // "consultancy",
   // "general supplies",
-]
+];
 
 const LandingPage = ({ sidebar, setSidebar }) => {
   return (
@@ -29,15 +29,15 @@ const LandingPage = ({ sidebar, setSidebar }) => {
       <div className="sliders">
         {/* Header */}
         <Header sidebar={sidebar} setSidebar={setSidebar} page={"homepage"} />
-        <div className="container">
+        <div className=" landing-container ">
           {/* Landing Page Content */}
-          <h1 className="landing-title">
-            thematic <span>Resources</span> 
+          <h1 className="landing-title text-center">
+            thematic <span>Resources</span>
           </h1>
           <div className="landing-text-wrapper">
             {/* <p className="landing-text">Our services include:</p> */}
             <TypistLoop interval={3000}>
-              {specializeArray.map(text => (
+              {specializeArray.map((text) => (
                 <Typist key={text} startDelay={1000}>
                   {text}
                 </Typist>
@@ -46,7 +46,7 @@ const LandingPage = ({ sidebar, setSidebar }) => {
           </div>
 
           {/* Social Icons */}
-          <div className="socials">
+          <div className="socials text-left">
             <ul className="social-icons">
               <li>
                 <a href="/facebook">
@@ -73,7 +73,7 @@ const LandingPage = ({ sidebar, setSidebar }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default LandingPage
+export default LandingPage;

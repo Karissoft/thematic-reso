@@ -1,17 +1,17 @@
-import React from "react"
-import "./policy.scss"
-import Footer from "../../components/footer/Footer"
-import Header from "../../components/header/header"
+import React from "react";
+import "./policy.scss";
+import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/header";
 
-import handIcon from "../../assets/images/icons/hand.svg"
+import handIcon from "../../assets/images/icons/hand.svg";
 
 const Policy = ({ sidebar, setSidebar }) => {
   return (
     <div className="policy">
       <Header sidebar={sidebar} setSidebar={setSidebar} page={"policy-page"} />
       <main className="container">
-        <h1>Our POLICY</h1>
-        <div className="general-notice">
+        <h1>Our Policy</h1>
+        <article className="general-notice">
           <h3>Local Capacity</h3>
           <p>
             TR proposes an organization and approach that will emphasize
@@ -24,8 +24,8 @@ const Policy = ({ sidebar, setSidebar }) => {
             responsiveness, global efficiency and organizational learning to
             ensure that projects are executed efficiently and effectively.
           </p>
-        </div>
-        <div className="policy-notice">
+        </article>
+        <article className="policy-notice">
           <h3>Community Relations</h3>
           <p>
             All operations of TR are carried out in different communities, both
@@ -60,8 +60,8 @@ const Policy = ({ sidebar, setSidebar }) => {
               Be attentive to host community needs and fulfil all FTOs and GMOU
             </li>
           </ul>
-        </div>
-        <div className="forward-looking">
+        </article>
+        <article className="forward-looking">
           <h3>Health, Safety and Environment Policy</h3>
           <p>
             TR is committed to giving priority to Health, Safety and the
@@ -115,16 +115,18 @@ const Policy = ({ sidebar, setSidebar }) => {
               agencies laws, as they concern HSE
             </li>
           </ul>
-        </div>
-        <p className="text">
-          Support the oil, exploration, geophysical industries and environmental
-          agencies’ accepted standards on Health, Safety and Environment
-          policies
-        </p>
+        </article>
+        <article>
+          <p className="text">
+            Support the oil, exploration, geophysical industries and
+            environmental agencies’ accepted standards on Health, Safety and
+            Environment policies
+          </p>
+        </article>
       </main>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Policy
+export default Policy;

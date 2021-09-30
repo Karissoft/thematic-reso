@@ -1,6 +1,6 @@
 .header {
   padding: 0.5rem 0;
-  height: 260px;
+
   position: relative;
 
   &-content {
@@ -50,8 +50,7 @@
 }
 .header.career-page {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../assets/images/career/career.jpeg") center center
-      no-repeat;
+    url("../../assets/images/career/career.jpeg") center center no-repeat;
   background-size: cover;
 }
 
@@ -66,10 +65,10 @@
   background-size: cover;
 }
 
-@media (max-width: 768px){
-  .header{
-    padding-left: 3rem;
-    max-width: 90%;
+@media (max-width: 768px) {
+  .header {
+    padding-left: 0;
+    max-width: 100%;
     text-align: center;
   }
 }

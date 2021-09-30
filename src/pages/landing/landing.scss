@@ -1,8 +1,8 @@
 #landing {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: relative;
-  min-height: 100vh;
+
   display: flex;
   background: #000;
 
@@ -22,19 +22,21 @@
   animation: fade 10s ease-in-out infinite;
   animation-direction: alternate;
 }
-
+.landing-container {
+  height: calc(100vh - 140px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 // Landing page content
 .landing-title {
   font-size: 3.875rem;
   font-family: "Quando", sans-serif;
-  margin: 0;
+
   color: #fff;
   font-weight: 400;
   letter-spacing: 2.16px;
   text-transform: uppercase;
-  margin-top: 2.5rem;
-  width: 80%;
-  margin-left: 1rem;
 
   span {
     color: red;
@@ -48,7 +50,7 @@
 }
 
 .landing-text {
-  font-family: "Amita", sans-serif;
+  font-family: "Quando", sans-serif;
   font-size: 32px;
   color: greenyellow;
   margin-right: 8px;
@@ -57,7 +59,7 @@
 
 .Typist {
   color: orange;
-  font-family: "Amita", sans-serif;
+  font-family: "Quando", sans-serif;
   font-size: 28px;
 }
 
@@ -71,6 +73,7 @@
   list-style: none;
   display: flex;
   padding-left: 0.5rem;
+  font-size: 2rem;
 
   li {
     margin-right: 1rem;
@@ -130,7 +133,6 @@
 @media screen and (max-width: 425px) {
   .landing-title {
     font-size: 30px;
-    margin-top: 2rem;
   }
 
   .landing-text-wrapper {
