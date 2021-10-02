@@ -20,6 +20,10 @@
     text-transform: uppercase;
     color: #e67919;
     margin-bottom: 70px;
+    @media (max-width: 425px) {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
   }
 
   main.container {

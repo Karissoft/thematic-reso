@@ -70,22 +70,15 @@
     }
 
     @media (max-width: 504px) {
-      font-size: 3rem;
       text-align: center;
     }
 
     @media (max-width: 492px) {
-      font-size: 3rem;
       text-align: center;
     }
 
     @media (max-width: 488px) {
       text-align: center;
-      font-size: 3rem;
-    }
-
-    @media (max-width: 425px) {
-      font-size: 3rem;
     }
   }
 
@@ -142,6 +135,10 @@
     line-height: 24px;
     text-transform: capitalize;
     color: #e67817;
+    @media (max-width: 425px) {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
   }
 }
 

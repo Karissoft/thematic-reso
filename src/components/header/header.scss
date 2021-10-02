@@ -12,6 +12,9 @@
   &-logo {
     img {
       width: 130px;
+      @media (max-width: 425px) {
+        width: 100px;
+      }
     }
   }
 

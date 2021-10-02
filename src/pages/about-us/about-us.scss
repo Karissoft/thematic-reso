@@ -22,7 +22,7 @@ $color-balck: #111;
 
     h1 {
       font-style: normal;
-      font-weight: 300;
+
       font-size: 3rem;
       line-height: 105px;
       text-align: center;
@@ -32,22 +32,8 @@ $color-balck: #111;
       margin-bottom: 2rem;
 
       @media (max-width: 425px) {
-        font-size: 30px;
-        margin-bottom: 0;
-      }
-
-      & + p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 37px;
-        color: black;
-        margin-bottom: 36px;
-
-        @media (max-width: 425px) {
-          font-size: 16px;
-          margin-bottom: 10px;
-        }
+        font-size: 1.2rem;
+        line-height: 1.6;
       }
     }
 
@@ -87,6 +73,10 @@ $color-balck: #111;
         letter-spacing: 1.08px;
         color: #e67817;
         margin-bottom: 2.5rem;
+        @media (max-width: 425px) {
+          font-size: 1.1rem;
+          line-height: 1.6;
+        }
       }
 
       .wrapper {
@@ -118,21 +108,26 @@ $color-balck: #111;
 
           p {
             font-style: normal;
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 24px;
+            font-size: 15px;
             color: black;
+            @media (max-width: 425px) {
+              font-size: 0.9rem;
+              line-height: 1.6;
+            }
           }
         }
 
         .first {
-          border-radius: 5px;
-          display: flex;
-          flex-direction: column;
-
-          text-align: center;
-          align-items: center;
-
+          div {
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba($color: #000000, $alpha: 0.2);
+            text-align: left;
+            align-items: flex-start;
+            padding: 20px;
+            margin-bottom: 2rem;
+          }
           img {
             width: 3rem;
             height: 3rem;
@@ -157,8 +152,8 @@ $color-balck: #111;
 
             li {
               font-style: normal;
-              font-weight: 300;
-              font-size: 15px;
+
+              font-size: 16px;
               line-height: 24px;
               letter-spacing: 0.65px;
               text-align: center;

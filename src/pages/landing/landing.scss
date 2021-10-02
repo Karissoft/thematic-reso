@@ -5,7 +5,14 @@
 
   display: flex;
   background: #000;
-
+  &.open {
+    width: 70%;
+  }
+  @media (max-width: 768px) {
+    &.open {
+      width: 60%;
+    }
+  }
   @media (max-width: 425px) {
     &.open {
       width: 50%;
@@ -27,6 +34,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 // Landing page content
 .landing-title {
@@ -38,7 +46,31 @@
   letter-spacing: 2.16px;
   text-transform: uppercase;
   margin-top: -10%;
+  position: relative;
 
+  &::before {
+    content: "";
+    position: absolute;
+    width: 51%;
+    border-bottom: 4px solid #e67817;
+    left: 0;
+    bottom: -15%;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 51%;
+    border-bottom: 4px solid #fff;
+    right: 0;
+    bottom: -15%;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+  @media (max-width: 425px) {
+    font-size: 1.5rem;
+  }
   span {
     color: #e67817;
   }
@@ -131,17 +163,10 @@
 }
 
 @media screen and (max-width: 425px) {
-  .landing-title {
-    font-size: 30px;
-  }
-
   .landing-text-wrapper {
     display: flex;
     align-items: center;
     margin-left: 0;
-  }
-  .landing-text {
-    margin-right: -5.2rem;
   }
 
   .landing-text,

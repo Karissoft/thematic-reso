@@ -13,9 +13,9 @@
     text-transform: capitalize;
     color: #e67919;
     margin-bottom: 3.5rem;
-
     @media (max-width: 425px) {
-      font-size: 2rem;
+      font-size: 1.2rem;
+      line-height: 1.6;
       margin-bottom: 2rem;
     }
   }
