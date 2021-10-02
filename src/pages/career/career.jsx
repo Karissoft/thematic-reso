@@ -16,7 +16,7 @@ export default function Career({ sidebar, setSidebar }) {
             class="alert alert-primary alert-dismissible fade show"
             role="alert"
           >
-            <strong>No open positions at the moments</strong>
+            <strong>No open positions at the moment</strong>
           </div>
         </div>
         <Link to="/apply" className="career-link">
