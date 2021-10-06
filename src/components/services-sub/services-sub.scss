@@ -18,7 +18,7 @@
           rgba(0, 0, 0, 0.54),
           rgba(0, 0, 0, 0.54)
         ),
-        url("../../assets/images/services/energy.jpg");
+        url("../../assets/images/services/energy-mid.jpg");
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -29,7 +29,7 @@
           rgba(0, 0, 0, 0.54),
           rgba(0, 0, 0, 0.54)
         ),
-        url("../../assets/images/services/life.jpg");
+        url("../../assets/images/services/water-mid.jpg");
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -40,7 +40,7 @@
           rgba(0, 0, 0, 0.54),
           rgba(0, 0, 0, 0.54)
         ),
-        url("../../assets/images/services/farming.jpg");
+        url("../../assets/images/services/farming-mid.jpg");
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -51,7 +51,7 @@
           rgba(0, 0, 0, 0.54),
           rgba(0, 0, 0, 0.54)
         ),
-        url("../../assets/images/services/tourism.jpg");
+        url("../../assets/images/services/tourism-mid.jpg");
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -67,6 +67,7 @@
     min-height: 80vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 
     @media (max-width: 425px) {
       align-items: flex-start;
@@ -92,21 +93,18 @@
     font-family: Quando;
     font-style: normal;
     font-weight: normal;
-    font-size: 62px;
-    line-height: 105px;
+    font-size: 3rem;
     letter-spacing: 2.16px;
     text-transform: uppercase;
     color: #fff;
-    margin: 0;
-    margin-left: 2rem;
+
     span {
       color: #e67817;
     }
 
     @media (max-width: 425px) {
-      font-size: 3rem;
+      font-size: 2rem;
       text-align: center;
-      margin-left: 0;
     }
   }
 
@@ -122,8 +120,11 @@
     }
 
     .redirect {
-      margin-bottom: 2rem;
-      margin-left: 1rem;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      width: 20px;
+      height: 20px;
 
       @media (max-width: 425px) {
         rect {
@@ -140,10 +141,11 @@
       font-style: normal;
       font-weight: bold;
       font-size: 22px;
-      line-height: 37px;
+      line-height: 28px;
       letter-spacing: 2.16px;
-      text-transform: uppercase;
+      text-transform: capitalize;
       color: #e67817;
+      text-align: center;
 
       @media (max-width: 425px) {
         font-size: 18px;
@@ -159,7 +161,7 @@
         font-style: normal;
         font-weight: bold;
         font-size: 14px;
-        line-height: 37px;
+        line-height: 26px;
         text-align: center;
         letter-spacing: 2.16px;
         text-transform: uppercase;
@@ -173,8 +175,7 @@
         font-size: 14px;
         line-height: 28px;
         text-align: center;
-        letter-spacing: 2.16px;
-        text-transform: uppercase;
+        margin: 0;
         color: #333333;
       }
     }

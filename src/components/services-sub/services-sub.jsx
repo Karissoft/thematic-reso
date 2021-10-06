@@ -1,13 +1,13 @@
-import React from "react"
-import { Link } from "react-router-dom"
+import React from "react";
+import { Link } from "react-router-dom";
 
-import logo from "../../assets/images/logo.svg"
-import { ReactComponent as CloseIcon } from "../../assets/images/close.svg"
+import logo from "../../assets/images/logo.svg";
+import { ReactComponent as CloseIcon } from "../../assets/images/close.svg";
 
-import "./services-sub.scss"
+import "./services-sub.scss";
 
 const ServicesSub = ({ children, subpage }) => {
-  console.log(children)
+  console.log(children);
   return (
     <div className="services-sub">
       <div className={`services-sub-bg-img ${subpage}`}>
@@ -17,7 +17,9 @@ const ServicesSub = ({ children, subpage }) => {
               <img src={logo} alt="Logo" />
             </Link>
           </div>
-          <div className="container services-sub-info">{children[0]}</div>
+          <div className="container services-sub-info text-center">
+            {children[0]}
+          </div>
         </header>
       </div>
       <div className="services-sub-content">
@@ -31,7 +33,7 @@ const ServicesSub = ({ children, subpage }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ServicesSub
+export default ServicesSub;

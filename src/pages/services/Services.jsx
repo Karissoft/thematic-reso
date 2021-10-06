@@ -41,60 +41,60 @@ function Services({ sidebar, setSidebar }) {
         <div className="slides-wrapper">
           <Slider {...slickSettings}>
             <div className=" slide">
-              <div className="farming ">
-                <Link to="/services/farming">
+              <Link to="/services/farming">
+                <div className="farming ">
                   <h3>Farming</h3>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
             <div className="slide">
-              <div className="energy ">
-                <Link to="/services/energy">
+              <Link to="/services/energy">
+                <div className="energy ">
                   <h3>Energy</h3>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
             <div className="slide">
-              <div className="water ">
-                <Link to="/services/portable-water">
+              <Link to="/services/portable-water">
+                <div className="water ">
                   <h3>Portable Water</h3>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
             <div className="slide">
-              <div className="tourism ">
-                <Link to="/services/tourism">
+              <Link to="/services/tourism">
+                <div className="tourism ">
                   <h3>Tourism</h3>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
             <div className="slide">
-              <div className="farming ">
-                <Link to="/services/farming">
+              <Link to="/services/farming">
+                <div className="farming ">
                   <h3>Farming</h3>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
             <div className="slide">
-              <div className="energy ">
-                <Link to="/services/energy">
+              <Link to="/services/energy">
+                <div className="energy ">
                   <h3>Energy</h3>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
             <div className="sldie">
-              <div className="water ">
-                <Link to="/services/portable-water">
+              <Link to="/services/portable-water">
+                <div className="water ">
                   <h3>Portable Water</h3>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
             <div className="slide">
-              <div className="tourism ">
-                <Link to="/services/tourism">
+              <Link to="/services/tourism">
+                <div className="tourism ">
                   <h3>Tourism</h3>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
           </Slider>
         </div>
